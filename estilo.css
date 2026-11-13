@@ -1,0 +1,177 @@
+*{
+    border:0 ;
+    padding:0 ;
+    margin:0 ;
+}
+#header{
+    background-color: yellow;
+    z-index: 1;
+}
+body{
+    background-color: rgb(248, 248, 158);
+    font-family: Arial, sans-serif;
+}
+.h1-header{
+   font-family:arial;
+   padding-left: 5px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+}
+.h3-header{
+   font-family:arial;
+    padding-left: 5px; 
+   padding-top: 3px;
+    padding-bottom: 1px;
+} 
+.link-cabeçalho{
+    text-decoration:none ;
+    word-spacing: 10px ;
+    font-size: 16px;
+    font-family: Arial;
+    color:black;
+} 
+#navegação{
+    text-align:right ;
+    padding-right: 5px;
+}
+.section-1{
+    background-color:yellow ;
+    margin: 0 auto;
+    text-align: center;
+    width: 90% ;
+    height: 160px;
+    border-radius: 12px;
+}
+.h2-section{
+    font-family: Arial;
+    font-size: 25px;
+    padding-top: 27px;
+}
+.p1{
+   padding-top: 13px;
+   font-family: Arial; 
+   font-size: 22px;
+}
+
+.section-2{
+padding: 10px;
+height: 10%;
+padding-bottom: 20px;
+}
+.section-2{
+background-color: yellow;
+margin: 10px auto;
+width: 90%;
+max-width: 1100px;
+height: auto;
+border-radius: 12px;
+text-align: center;
+box-sizing: border-box;
+}
+
+.grid {
+    background-color: none;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+     padding: 20px;
+    align-items: center; /* Centraliza os itens dentro da grid */
+}
+
+.sub-grid {
+    margin: 0;
+    padding: 20px;
+    background-color: yellow;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; /* Espaçamento entre os elementos dentro do sub-grid */
+}
+
+.img-pizza {
+    width: 100%;
+    max-width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.h2-cardapio {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+}
+
+.h2-sub-grid {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.p-preço {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.botao-arcao {
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    width: 80%;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.link-cabeçalho {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0 10px;
+}
+
+.link-cabeçalho:hover {
+    color: red;
+    transition: all ease-in-out 0.3s;
+}
+
+#rodapé {
+    background-color: yellow;
+    text-align: center;
+    padding: 15px;
+    font-family: Arial , sans-serif;
+}
+
+.img-Bebidas-Sobremesas {
+    width: 100%;
+    max-width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px dashed #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#777;
+    font-size: 14px;
+}
+.sub-grid a{
+    width: 100%;
+}
